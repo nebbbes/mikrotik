@@ -1,0 +1,27 @@
+
+
+cd temp\me
+
+python loop.py -f ip.txt
+
+
+
+python loop.py -f ip.txt -p порт
+
+
+cd temp\me
+
+python loop.py 31.146.214.138
+
+
+
+python loop.py 31.146.214.138 -p порт
+
+cd temp\me
+python loop.py -f ip.txt | tee rezult.txt
+
+
+
+
+cd temp\me
+python loop.py 94.125.127.84
