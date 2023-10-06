@@ -38,7 +38,7 @@ def get_pair(data):
 
 def dump(data):
     user_pass = get_pair(data)
-    with open("login.txt", "a") as file:  # Используйте режим "a" для добавления в файл
+    with open("rezult.txt", "a") as file: 
         for u, p in user_pass:
             print("User:", u)
             print("Pass:", p)
