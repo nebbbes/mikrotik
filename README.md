@@ -15,7 +15,7 @@ $ pip install six
 ##### Clone the repository
 ```
 $ git clone https://github.com/nebbbes/mikrotik
-$ cd mikrotik
+$ cd nebbbes
 ```
 ## Команды
 сканировать один IP: *В корневом каталоге скрипта*
