@@ -6,10 +6,11 @@
 
 ##### Установка в Windows PowerShell
 ```
-$ pip install python
-$ pip install ipcalc
-$ pip install requests
-$ pip install six
+install Git https://git-scm.com/download/win
+install Python https://www.python.org/downloads/
+install PowerShell https://github.com/PowerShell/PowerShell/releases/
+$ pip install -r requirements.txt
+
 ```
 
 ##### Clone the repository
