@@ -13,7 +13,7 @@ install PowerShell https://github.com/PowerShell/PowerShell/releases/
 
 ```
 
-##### Clone the repository
+##### Clone the repository and install requirements
 ```
 $ git clone https://github.com/nebbbes/mikrotik
 $ cd mikrotik
@@ -41,6 +41,6 @@ $ python loop.py -f list.txt
 
 ## Защита маршрутизатора **Обновите RouterOS и ограничьте вход в Winbox**
 ```
-IP-фильтр брандмауэра добавить цепочку chain=input in-interface=wan protocol=tcp dst-port=8291 action=drop
+## IP-фильтр брандмауэра добавить цепочку chain=input in-interface=wan protocol=tcp dst-port=8291 action=drop
 ```
 
