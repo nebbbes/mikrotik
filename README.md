@@ -4,7 +4,10 @@
 ## Установка
 
 
-##### Установка в Windows PowerShell
+##### Установка инструментов в Windows 
+Git
+Python
+PowerShell
 ```
 install Git https://git-scm.com/download/win
 install Python https://www.python.org/downloads/
