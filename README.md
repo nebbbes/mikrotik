@@ -9,7 +9,7 @@
 install Git https://git-scm.com/download/win
 install Python https://www.python.org/downloads/
 install PowerShell https://github.com/PowerShell/PowerShell/releases/
-$ pip install -r requirements.txt
+
 
 ```
 
@@ -17,6 +17,7 @@ $ pip install -r requirements.txt
 ```
 $ git clone https://github.com/nebbbes/mikrotik
 $ cd mikrotik
+$ pip install -r requirements.txt
 ```
 ## Команды
 сканировать один IP: *В корневом каталоге скрипта*
