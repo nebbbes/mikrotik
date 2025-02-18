@@ -20,7 +20,7 @@ $ cd mikrotik
 $ pip install -r requirements.txt
 ```
 ## Команды
-сканировать один IP: *В корневом каталоге скрипта*
+сканировать один IP: 
 ```
 $ python loop.py 192.168.1.10
 ```
@@ -41,6 +41,6 @@ $ python loop.py -f list.txt
 
 ## Защита маршрутизатора **Обновите RouterOS и ограничьте вход в Winbox**
 ```
-## IP-фильтр брандмауэра добавить цепочку chain=input in-interface=wan protocol=tcp dst-port=8291 action=drop
+IP-фильтр брандмауэра добавить цепочку chain=input in-interface=wan protocol=tcp dst-port=8291 action=drop
 ```
 
