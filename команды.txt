@@ -1,0 +1,14 @@
+cd temp\me
+python loop.py -f ip.txt
+
+
+cd temp\me
+python loop.py -f ip.txt -p порт
+
+
+
+cd temp\mikrotik
+python loop.py 31.146.214.138
+
+cd temp\mikrotik
+python loop.py 31.146.214.138 -p порт
